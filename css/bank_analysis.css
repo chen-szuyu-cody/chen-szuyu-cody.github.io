@@ -4,7 +4,7 @@ html {
 	height: 100%;
 	font-family: 'Montserrat', sans-serif;
 
-	background: url("../image/profile-1.jpg") no-repeat center center fixed; 
+	background: url("../image/background-1-1.jpg") no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -13,12 +13,24 @@ html {
 
 h1 {
 	font-size: 3rem;
-	color:#ffffff;
+	color: #ffffff;
+}
+
+h2 {
+	color: #ffffff;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+p {
+	padding: 10px;
+	color: pink;
+	background: rgba(0, 0, 0, 0.8);
 }
 
 .btn {
 	font-weight: 700;
 	border-radius: 300px;
+	margin: 20px;
 	text-transform: uppercase;
 }
 
@@ -35,4 +47,9 @@ h1 {
 
 .btn-xl {
 	padding: 1rem 2rem;
+}
+
+.tableauPlaceholder{
+	margin: 20px;
+	box-shadow:20px 20px 50px 15px #af8b8bba;
 }

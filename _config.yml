@@ -1,4 +1,10 @@
-	name: Cody Chen, Super Kid
-	markdown: kramdown
-
+name: Cody Chen, Super Kid
+markdown: kramdown
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
 theme: jekyll-theme-slate
+include:
+  - README.md

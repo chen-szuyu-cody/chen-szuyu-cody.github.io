@@ -18,8 +18,11 @@ h1 {
 }
 
 h2 {
+	padding-left: 20px;
 	color: #ffffff;
 	background: rgba(0, 0, 0, 0.2);
+	width: 80%;
+	/*display: flex;*/
 }
 
 p {
@@ -51,9 +54,11 @@ p {
 }
 
 .btn-l {
+	font-size: 12px;
 	background-color: #6dc1f3;
 	border-color: #6dc1f3;
-	padding: 1rem 2rem;
+	padding: 1rem 1rem;
+	color: black;
 
 }
 

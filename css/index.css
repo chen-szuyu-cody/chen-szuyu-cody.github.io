@@ -17,6 +17,16 @@ h1 {
 	background: rgba(0, 0, 0, 0.2);
 }
 
+hr {
+	border-color: #F05F44;
+	border-width: 3px;
+	max-width: 
+}
+
+.buffer {
+	height: 30rem;
+}
+
 .btn {
 	font-weight: 700;
 	border-radius: 300px;
